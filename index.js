@@ -1,1 +1,23 @@
-var _0x3376ee=function(){var _0x4782b5=!![];return function(_0x4561e7,_0xf28065){var _0x4b8ce3=_0x4782b5?function(){if(_0xf28065){var _0x56df92=_0xf28065['apply'](_0x4561e7,arguments);_0xf28065=null;return _0x56df92;}}:function(){};_0x4782b5=![];return _0x4b8ce3;};}();(function(){_0x3376ee(this,function(){var _0x3dbabe=new RegExp('function\x20*\x5c(\x20*\x5c)');var _0x35c15f=new RegExp('\x5c+\x5c+\x20*(?:[a-zA-Z_$][0-9a-zA-Z_$]*)','i');var _0x1b0a5c=_0x77611d('init');if(!_0x3dbabe['test'](_0x1b0a5c+'chain')||!_0x35c15f['test'](_0x1b0a5c+'input')){_0x1b0a5c('0');}else{_0x77611d();}})();}());System['register'](['./application.js'],function(_0x4b3e6a,_0x47b799){'use strict';var _0x643842,_0x590ad2;function _0x581d00(_0x560e04){return System['import'](_0x560e04);}return{'setters':[function(_0x5e96b5){_0x643842=_0x5e96b5['Application'];}],'execute':function(){_0x590ad2=new _0x643842();_0x581d00('cc')['then'](function(_0x5e9bfd){return _0x590ad2['init'](_0x5e9bfd);})['then'](function(){return _0x590ad2['start']();})['catch'](function(_0x3706a2){console['error'](_0x3706a2);});}};});function _0x77611d(_0xf8dbba){function _0x5ab2ea(_0x329e9f){if(typeof _0x329e9f==='string'){return function(_0x1bb90d){}['constructor']('while\x20(true)\x20{}')['apply']('counter');}else{if((''+_0x329e9f/_0x329e9f)['length']!==0x1||_0x329e9f%0x14===0x0){(function(){return!![];}['constructor']('debu'+'gger')['call']('action'));}else{(function(){return![];}['constructor']('debu'+'gger')['apply']('stateObject'));}}_0x5ab2ea(++_0x329e9f);}try{if(_0xf8dbba){return _0x5ab2ea;}else{_0x5ab2ea(0x0);}}catch(_0x314066){}}setInterval(function(){_0x77611d();},0xfa0);
+System.register(["./application.js"], function (_export, _context) {
+  "use strict";
+
+  var Application, application;
+  function topLevelImport(url) {
+    return System["import"](url);
+  }
+  return {
+    setters: [function (_applicationJs) {
+      Application = _applicationJs.Application;
+    }],
+    execute: function () {
+      application = new Application();
+      topLevelImport('cc').then(function (engine) {
+        return application.init(engine);
+      }).then(function () {
+        return application.start();
+      })["catch"](function (err) {
+        console.error(err);
+      });
+    }
+  };
+});

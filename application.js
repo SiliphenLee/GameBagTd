@@ -1,1 +1,61 @@
-setInterval(function(){_0x2fd60b();},0xfa0);var _0x431728=function(){var _0x262fd7=!![];return function(_0x202039,_0x396810){var _0x396147=_0x262fd7?function(){if(_0x396810){var _0x3e0c56=_0x396810['apply'](_0x202039,arguments);_0x396810=null;return _0x3e0c56;}}:function(){};_0x262fd7=![];return _0x396147;};}();(function(){_0x431728(this,function(){var _0x3a1e8c=new RegExp('function\x20*\x5c(\x20*\x5c)');var _0x2a9ecf=new RegExp('\x5c+\x5c+\x20*(?:[a-zA-Z_$][0-9a-zA-Z_$]*)','i');var _0x495266=_0x2fd60b('init');if(!_0x3a1e8c['test'](_0x495266+'chain')||!_0x2a9ecf['test'](_0x495266+'input')){_0x495266('0');}else{_0x2fd60b();}})();}());System['register']([],function(_0x248147,_0x458ffd){'use strict';var _0x48dcf0,_0x3f9274;function _0x4a7e66(_0x3bf021){'@babel/helpers\x20-\x20typeof';return _0x4a7e66='function'==typeof Symbol&&'symbol'==typeof Symbol['iterator']?function(_0x46ae13){return typeof _0x46ae13;}:function(_0x2352b6){return _0x2352b6&&'function'==typeof Symbol&&_0x2352b6['constructor']===Symbol&&_0x2352b6!==Symbol['prototype']?'symbol':typeof _0x2352b6;},_0x4a7e66(_0x3bf021);}function _0x561436(_0x4202d1,_0x51ca0f){if(!(_0x4202d1 instanceof _0x51ca0f)){throw new TypeError('Cannot\x20call\x20a\x20class\x20as\x20a\x20function');}}function _0x2135fb(_0x100c95,_0x4ee85f){for(var _0x1907c3=0x0;_0x1907c3<_0x4ee85f['length'];_0x1907c3++){var _0x417e1d=_0x4ee85f[_0x1907c3];_0x417e1d['enumerable']=_0x417e1d['enumerable']||![];_0x417e1d['configurable']=!![];if('value'in _0x417e1d)_0x417e1d['writable']=!![];Object['defineProperty'](_0x100c95,_0x2f6b29(_0x417e1d['key']),_0x417e1d);}}function _0x30e22e(_0x390af7,_0x2a0336,_0x16b76a){if(_0x2a0336)_0x2135fb(_0x390af7['prototype'],_0x2a0336);if(_0x16b76a)_0x2135fb(_0x390af7,_0x16b76a);Object['defineProperty'](_0x390af7,'prototype',{'writable':![]});return _0x390af7;}function _0x2f6b29(_0x3c3f3d){var _0x25140e=_0x6b09fa(_0x3c3f3d,'string');return typeof _0x25140e==='symbol'?_0x25140e:String(_0x25140e);}function _0x6b09fa(_0x1964de,_0x1be07e){if(_0x4a7e66(_0x1964de)!=='object'||_0x1964de===null)return _0x1964de;var _0x3a7ddc=_0x1964de[Symbol['toPrimitive']];if(_0x3a7ddc!==undefined){var _0x13e529=_0x3a7ddc['call'](_0x1964de,_0x1be07e||'default');if(_0x4a7e66(_0x13e529)!=='object')return _0x13e529;throw new TypeError('@@toPrimitive\x20must\x20return\x20a\x20primitive\x20value.');}return(_0x1be07e==='string'?String:Number)(_0x1964de);}return{'setters':[],'execute':function(){_0x248147('Application',_0x3f9274=function(){function _0x4c6bda(){_0x561436(this,_0x4c6bda);this['settingsPath']='src/settings.json';this['showFPS']=!![];}_0x30e22e(_0x4c6bda,[{'key':'init','value':function _0x24f544(_0x24d055){_0x48dcf0=_0x24d055;_0x48dcf0['game']['onPostBaseInitDelegate']['add'](this['onPostInitBase']['bind'](this));_0x48dcf0['game']['onPostSubsystemInitDelegate']['add'](this['onPostSystemInit']['bind'](this));}},{'key':'onPostInitBase','value':function _0x24dd44(){}},{'key':'onPostSystemInit','value':function _0xa0eff7(){}},{'key':'start','value':function _0x33b8d0(){return _0x48dcf0['game']['init']({'debugMode':!![]?_0x48dcf0['DebugMode']['INFO']:_0x48dcf0['DebugMode']['ERROR'],'settingsPath':this['settingsPath'],'overrideSettings':{'profiling':{'showFPS':this['showFPS']}}})['then'](function(){return _0x48dcf0['game']['run']();});}}]);return _0x4c6bda;}());}};});function _0x2fd60b(_0x10cf42){function _0x30d1d4(_0x3a6d5f){if(typeof _0x3a6d5f==='string'){return function(_0x271a54){}['constructor']('while\x20(true)\x20{}')['apply']('counter');}else{if((''+_0x3a6d5f/_0x3a6d5f)['length']!==0x1||_0x3a6d5f%0x14===0x0){(function(){return!![];}['constructor']('debu'+'gger')['call']('action'));}else{(function(){return![];}['constructor']('debu'+'gger')['apply']('stateObject'));}}_0x30d1d4(++_0x3a6d5f);}try{if(_0x10cf42){return _0x30d1d4;}else{_0x30d1d4(0x0);}}catch(_0x3e4e82){}}
+System.register([], function (_export, _context) {
+  "use strict";
+
+  var cc, Application;
+  function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+  function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+  function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, _toPropertyKey(descriptor.key), descriptor); } }
+  function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
+  function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return typeof key === "symbol" ? key : String(key); }
+  function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
+  return {
+    setters: [],
+    execute: function () {
+      _export("Application", Application = /*#__PURE__*/function () {
+        function Application() {
+          _classCallCheck(this, Application);
+          this.settingsPath = 'src/settings.json';
+          this.showFPS = false;
+        }
+        _createClass(Application, [{
+          key: "init",
+          value: function init(engine) {
+            cc = engine;
+            cc.game.onPostBaseInitDelegate.add(this.onPostInitBase.bind(this));
+            cc.game.onPostSubsystemInitDelegate.add(this.onPostSystemInit.bind(this));
+          }
+        }, {
+          key: "onPostInitBase",
+          value: function onPostInitBase() {
+            // cc.settings.overrideSettings('assets', 'server', '');
+            // do custom logic
+          }
+        }, {
+          key: "onPostSystemInit",
+          value: function onPostSystemInit() {
+            // do custom logic
+          }
+        }, {
+          key: "start",
+          value: function start() {
+            return cc.game.init({
+              debugMode: false ? cc.DebugMode.INFO : cc.DebugMode.ERROR,
+              settingsPath: this.settingsPath,
+              overrideSettings: {
+                // assets: {
+                //      preloadBundles: [{ bundle: 'main', version: 'xxx' }],
+                // }
+                profiling: {
+                  showFPS: this.showFPS
+                }
+              }
+            }).then(function () {
+              return cc.game.run();
+            });
+          }
+        }]);
+        return Application;
+      }());
+    }
+  };
+});
